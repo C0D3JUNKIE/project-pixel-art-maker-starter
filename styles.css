@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: #D8E1ED;
 }
 
 h1 {
@@ -10,10 +11,33 @@ h1 {
 
 h2 {
     margin: 1em 0 0.25em;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2:first-of-type {
     margin-top: 0.5em;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p#welcome{
+    font-family: Monoton;
+    font-size: 25px;
+    margin: 0.2em;
+    color: #A64EB5;    
+}
+
+.instructions{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    padding: 3%;    
 }
 
 table,
@@ -34,6 +58,7 @@ tr {
 td {
     width: 20px;
 }
+
 
 input[type=number] {
     width: 6em;
