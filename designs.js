@@ -19,10 +19,10 @@ gridSize.addEventListener('submit',function(e){
 //Creates canvas
 function makeGrid(width, height) {
     //Nested for loop to create canvas and allow for color selection
-    for(x = 0; x < width; x++){
-        row = canvas.insertRow(x);
-        for(y = 0; y < height; y ++){
-            let canvasUnit = row.insertCell(y);
+    for(y = 0; y < height; y++){
+        row = canvas.insertRow(y);
+        for(x = 0; x < width; x ++){
+            let canvasUnit = row.insertCell(x);
             canvasUnit.style.backgroundColor = "white";
             canvasUnit.addEventListener('click', function(e){
                 e.preventDefault();
